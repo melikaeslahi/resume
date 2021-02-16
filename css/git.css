@@ -1,0 +1,126 @@
+.container {
+  padding-bottom: 15px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 100px 0 50px 0;
+}
+.container div .img {
+  transform: translateY(-80px);
+  display: flex;
+  justify-content: center;
+}
+.container div .img img {
+  z-index: 2;
+  width: 150px;
+  height: 150px;
+  border-radius: 200px;
+}
+.container div .img img:hover {
+  cursor: pointer;
+}
+.container div h5 {
+  font-family: "sahel", "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 600;
+  border-bottom: 5px solid #dc3545;
+  text-align: center;
+}
+.container div p {
+  text-align: center;
+  font-family: "sahel", "Times New Roman", Times, serif;
+  display: block;
+}
+.container div.prog {
+  direction: rtl;
+}
+.container div.prog .progress {
+  width: auto;
+}
+.container div.prog p {
+  display: inline;
+}
+
+.english-resume {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.english-resume .btn:hover {
+  background-color: #dc3545;
+}
+
+.english {
+  padding-bottom: 15px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 100px 0 50px 0;
+}
+.english div .img {
+  transform: translateY(-80px);
+  display: flex;
+  justify-content: center;
+}
+.english div .img img {
+  z-index: 2;
+  width: 150px;
+  height: 150px;
+  border-radius: 200px;
+}
+.english div .img img:hover {
+  cursor: pointer;
+}
+.english div h5 {
+  font-family: "nunito", "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 600;
+  border-bottom: 5px solid #dc3545;
+  text-align: center;
+}
+.english div p {
+  text-align: center;
+  font-family: "nunito", "Times New Roman", Times, serif;
+  display: block;
+}
+.english div.prog {
+  direction: ltr;
+  text-align: left;
+}
+.english div.prog .progress {
+  width: auto;
+}
+.english div.prog p {
+  display: inline;
+}
+
+.english-resume {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.english-resume .btn:hover {
+  background-color: #dc3545;
+}
+
+i {
+  margin: 10px;
+  font-size: 10px;
+}
+
+body {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: sahel;
+  src: url("../font/Sahel.ttf") format("ttf");
+  src: url("../font/Sahel.woff") format("woff");
+  src: url("../font/Sahel-Black.eot") format("eot");
+}
+@font-face {
+  font-family: nunito;
+  src: url("../font/Nunito-Black.ttf") format("ttf");
+}/*# sourceMappingURL=git.css.map */

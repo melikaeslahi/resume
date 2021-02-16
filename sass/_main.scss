@@ -1,0 +1,157 @@
+ .container {
+     padding-bottom: 15px;
+     border: 2px solid black;
+     border-radius: 20px;
+     margin: 100px 0 50px 0;
+
+     div {
+
+         .img {
+             transform: translateY(-80px);
+             display: flex;
+             justify-content: center;
+
+
+             img {
+
+                 z-index: 2;
+                 width: 150px;
+                 height: 150px;
+                 border-radius: 200px;
+
+                 &:hover {
+                     cursor: pointer;
+                 }
+             }
+         }
+
+         h5 {
+             font-family: 'sahel', 'Times New Roman', Times, serif;
+             font-size: 30px;
+             font-weight: 600;
+             border-bottom: 5px solid #dc3545;
+             text-align: center;
+
+         }
+
+         p {
+             text-align: center;
+             font-family: 'sahel', 'Times New Roman', Times, serif;
+             display: block;
+         }
+
+
+
+
+     }
+
+     div.prog {
+         direction: rtl;
+
+
+         .progress {
+             width: auto;
+
+         }
+
+         p {
+             display: inline;
+         }
+     }
+
+ }
+
+ .english-resume {
+     display: flex;
+     justify-content: center;
+     margin-bottom: 100px;
+
+     .btn {
+         &:hover {
+             background-color: #dc3545;
+         }
+     }
+ }
+
+
+ .english {
+    padding-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 100px 0 50px 0;
+
+    div {
+
+        .img {
+            transform: translateY(-80px);
+            display: flex;
+            justify-content: center;
+
+
+            img {
+
+                z-index: 2;
+                width: 150px;
+                height: 150px;
+                border-radius: 200px;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+
+        h5 {
+            font-family: 'nunito', 'Times New Roman', Times, serif;
+            font-size: 30px;
+            font-weight: 600;
+            border-bottom: 5px solid #dc3545;
+            text-align: center;
+
+        }
+
+        p {
+            text-align: center;
+            font-family: 'nunito', 'Times New Roman', Times, serif;
+            display: block;
+           
+        }
+
+
+
+
+    }
+
+    div.prog {
+        direction: ltr;
+        text-align: left;
+
+        .progress {
+            width: auto;
+
+        }
+
+        p {
+            display: inline;
+        }
+    }
+
+}
+
+.english-resume {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+
+    .btn {
+        &:hover {
+            background-color: #dc3545;
+        }
+    }
+}
+i{
+    margin: 10px;
+    font-size: 10px;
+}
+ 
+ 

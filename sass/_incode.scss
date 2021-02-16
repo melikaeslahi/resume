@@ -1,0 +1,20 @@
+body{
+    // background-image: url("../image/back.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+ 
+@font-face {
+font-family: sahel;
+src: url('../font/Sahel.ttf') format('ttf');
+src: url('../font/Sahel.woff') format('woff');
+src: url('../font/Sahel-Black.eot') format('eot');
+}
+@font-face {
+    font-family: nunito;
+    src: url('../font/Nunito-Black.ttf') format('ttf');
+  }
+   
