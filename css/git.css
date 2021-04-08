@@ -1,6 +1,6 @@
 .container {
   padding-bottom: 15px;
-  border: 2px solid black;
+  box-shadow: 3px 3px 6px #d1d1d1,-3px -3px 6px #d1d1d1;
   border-radius: 20px;
   margin: 100px 0 50px 0;
 }
@@ -19,10 +19,12 @@
   cursor: pointer;
 }
 .container div h5 {
+   padding: 10px;
+   border-bottom: 2px dashed #dc3545;
   font-family: "sahel", "Times New Roman", Times, serif;
   font-size: 30px;
   font-weight: 600;
-  border-bottom: 5px solid #dc3545;
+   
   text-align: center;
 }
 .container div p {
@@ -31,6 +33,7 @@
   display: block;
 }
 .container div.prog {
+   margin-bottom: 50px;
   direction: rtl;
 }
 .container div.prog .progress {
@@ -51,7 +54,7 @@
 
 .english {
   padding-bottom: 15px;
-  border: 2px solid black;
+  box-shadow: 3px 3px 6px #d1d1d1,-3px -3px 6px #d1d1d1;
   border-radius: 20px;
   margin: 100px 0 50px 0;
 }
@@ -70,10 +73,12 @@
   cursor: pointer;
 }
 .english div h5 {
+   padding: 10px;
+   border-bottom: 2px dashed #dc3545;
   font-family: "nunito", "Times New Roman", Times, serif;
   font-size: 30px;
   font-weight: 600;
-  border-bottom: 5px solid #dc3545;
+   
   text-align: center;
 }
 .english div p {
@@ -82,6 +87,7 @@
   display: block;
 }
 .english div.prog {
+   margin-bottom: 50px;
   direction: ltr;
   text-align: left;
 }
