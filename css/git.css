@@ -179,6 +179,7 @@ div.btn{
     display: flex;
     justify-content: center;
    justify-content: space-between;
+  flex-wrap: wrap;
   margin-bottom: 50px;}
   @media screen and (max-width: 535px) {
        div.btn{
