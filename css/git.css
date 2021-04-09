@@ -175,14 +175,16 @@
   display: inline;
 }
 
-.english-resume {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 100px;
-}
-.english-resume .btn:hover {
-  background-color: #dc3545;
-}
+div.btn{
+    display: flex;
+    justify-content: center;
+  margin-bottom: 50px;}
+.resume{
+        margin-right: 15px ;
+    }
+  .download{
+        margin-left: 15px;
+    }
 
 i {
   margin: 10px;
