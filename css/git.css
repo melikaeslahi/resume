@@ -71,6 +71,64 @@
                     text-align: right; 
                     font-size: 10px;
                }}
+.container div .Evidence {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+.container div .Evidence .img-Evidence .frame_img-Evidence {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-top: 10px;
+}
+.container div .Evidence .img-Evidence .frame_img-Evidence img {
+  margin-left: 15px;
+  width: 80px;
+  height: 80px;
+}
+@media screen and (max-width: 700px) {
+  .container div .Evidence .img-Evidence .frame_img-Evidence img {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 250px) {
+  .container div .Evidence .img-Evidence .frame_img-Evidence img {
+    width: 40px;
+    height: 40px;
+  }
+}
+.container div .Evidence .img-Evidence .frame_img-Evidence .name-Evidence h6 {
+  font-weight: bolder;
+}
+@media screen and (max-width: 700px) {
+  .container div .Evidence .img-Evidence .frame_img-Evidence .name-Evidence h6 {
+    font-size: 10px;
+  }
+}
+.container div .Evidence .img-Evidence .frame_img-Evidence .name-Evidence P {
+  align-self: center;
+  font-size: small;
+  color: darkgrey;
+}
+@media screen and (max-width: 700px) {
+  .container div .Evidence .img-Evidence .frame_img-Evidence .name-Evidence P {
+    font-size: smaller;
+  }
+}
+.container div .Evidence .link-Evidence a {
+  text-decoration: none;
+  color: #dc3545;
+}
+@media screen and (max-width: 700px) {
+  .container div .Evidence .link-Evidence a {
+    font-size: 12px;
+  }
+}
+
 .container div.prog {
    margin-bottom: 50px;
   direction: rtl;
@@ -194,6 +252,20 @@ div.btn{
 i {
   margin: 10px;
   font-size: 10px;
+}
+body.Certificates {
+  display: flex;
+  justify-content: center;
+}
+body.Certificates .img-fluid {
+  margin-top: 100px;
+}
+body.Certificates .img-thumbnail {
+  width: 1400px;
+  height: 500px;
+  object-fit: scale-down;
+  background-color: #7a8686;
+  justify-content: center;
 }
 
 body {
